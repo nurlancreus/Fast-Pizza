@@ -10,7 +10,7 @@ import {
 import OrderItem from "./OrderItem";
 import { useEffect } from "react";
 import UpdateOrder from "./UpdateOrder";
-import { MenuItemType, type OrderType } from "@/services/model/types";
+import { type MenuItemType, type OrderType } from "@/services/model/types";
 
 function Order() {
   // Everyone can search for all orders, so for privacy reasons we're gonna gonna exclude names or address, these are only for the restaurant staff

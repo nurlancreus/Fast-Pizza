@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { logoutUser, selectUser } from "./userSlice";
 import { clearCart } from "../cart/cartSlice";
-import Button from "../../ui/Button";
+import Button from "@/ui/Button";
 
 function Username() {
   const { userName } = useSelector(selectUser);

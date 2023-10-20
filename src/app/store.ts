@@ -10,8 +10,8 @@ import {
   PURGE,
   REGISTER,
 } from "redux-persist";
-import userReducer from "../features/user/userSlice";
-import cartReducer from "../features/cart/cartSlice";
+import userReducer from "@/features/user/userSlice";
+import cartReducer from "@/features/cart/cartSlice";
 
 export type RootState = ReturnType<typeof store.getState>
 

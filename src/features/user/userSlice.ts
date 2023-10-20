@@ -1,5 +1,5 @@
 import { PayloadAction, createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { getAddress } from "../../services/apiGeocoding";
+import { getAddress } from "@/services/apiGeocoding";
 import { type RootState } from "@/app/store";
 
 function getPosition(): Promise<GeolocationPosition> {

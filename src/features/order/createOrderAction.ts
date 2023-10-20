@@ -1,8 +1,8 @@
 import { redirect } from "react-router-dom";
-import { createOrder } from "../../services/apiRestaurant";
+import { createOrder } from "@/services/apiRestaurant";
 
-import store from "../../app/store";
-import { CartItemType, clearCart } from "../cart/cartSlice";
+import store from "@/app/store";
+import { type CartItemType, clearCart } from "../cart/cartSlice";
 
 const isValidPhone = (str: string) =>
   /^\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/.test(
